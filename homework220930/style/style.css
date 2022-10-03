@@ -1,0 +1,173 @@
+* {
+	margin: 0;
+	padding: 0;
+    
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    /*background-image: url(../img/digital-background-of-green-matrix-binary-computer-code_47243-763.jpg);*/
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url(/img/digital-background-of-green-matrix-binary-computer-code_47243-763.jpg);
+    background-size: cover;
+    color:bisque;
+    /*height: 100%;*/
+    width: 100%;
+    font-family: 'Roboto', sans-serif;   
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+#wrap {
+    flex: 1 0 auto;
+
+}
+main {
+    padding-left: 10%;
+    padding-bottom: 10px;
+    height: 100%;
+    margin: 10px;
+    
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    padding-top: 20px;
+    text-align:center;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline;
+    padding: 10px 50px;
+    margin: 10px;
+    color: bisque;
+    border-bottom: 5px solid bisque;
+    background-color: rgba(3, 78, 15, 1);
+    height: 30px;
+    line-height: 30px;
+}
+
+.foto-name {
+    display: table;
+}
+
+.foto {
+    width: 300px;
+    height: 200px;
+    display: table-cell;
+}
+
+.foto img {
+    margin-top: 10px;
+    height: 100%;
+}
+
+
+.name {
+    /*width: 50%;
+    margin-left: 60%;*/
+    height: 100px;
+    display: table-cell;
+    vertical-align: top;
+    padding-top: 30px;
+}
+
+.name h2  {
+    font-size: 48px;
+    text-align: left;
+}
+
+.contact-list {
+    list-style-type: "\1F4F1";
+    list-style-position: inside;
+    /*background-color: rgba(3, 78, 15, 0.27);*/
+    /*padding: 20px;*/
+    /*margin: 20px;*/
+}
+
+.contact-list li {
+    width: 300px;
+    margin-left: 50px;
+}
+
+.contact-highlighted {
+    font-weight: bold;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+p {
+    width: 80%;
+    font-size: 20px;
+    text-align: right;
+}
+
+.emodji {
+    font-size: 24px;
+}
+
+.skills ul{
+    list-style-type: "\27BD";
+    margin-top: 10px;
+    list-style-position: inside;
+}
+
+.skills li {
+    padding: 3px;
+    margin-left: 50px;
+}
+
+.projects ol {
+    list-style-position: outside;
+    list-style-image: url(/img/task_software_platform_management_project_icon_142266.png);
+    list-style-position: inside;
+    margin-left: 50px;
+}
+
+table {
+    margin-top: 10px;
+    width: 700px;
+    text-align: left;
+    padding: 2px;
+    margin-left: 50px;
+}
+
+table, th, td{
+    border: 2px solid rgba(3, 78, 15, 1);
+    border-collapse: collapse;
+    padding: 3px;
+    margin-left: 2px;
+}
+
+thead tr {
+    background-color: rgba(3, 78, 15, 0.6);
+}
+
+.head-row {
+    text-align: center;
+    font-weight: bolder;
+}
+
+footer {
+    background-color: rgb(11, 10, 11);
+    flex: 0 0 auto;
+    /*margin-top: -10px;*/
+    height: 50px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+footer a img {
+    margin-left: 10px;
+    margin-top: 2px;
+    width: 25px;
+}
+
