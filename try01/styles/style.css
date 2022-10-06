@@ -1,0 +1,23 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+tr {
+    height:20px;
+}
+
+.row-monday td:nth-child(3) {
+    background-color: violet;
+}
+
+.day-start {
+    background-color: #f0d50b;
+}
+
+.day-end {
+    background-color: greenyellow;
+}
+
+.day-end2 {
+    background-color: violet;
+}
