@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Lato:wght@100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.frame5 {
+    width: 2304px;
+    height: 1618px;
+    padding: 303px 0;
+    background: conic-gradient(from -1.64deg at 52.89% 52.66%, #9FE6EA -34.2deg, #A5E3E7 85.25deg, #F0DAC2 153.64deg, #F7E3CD 280.49deg, #9FE6EA 325.8deg, #A5E3E7 445.25deg);
+    display: flex;
+    justify-content: center;
+}
+
+.frame4 {
+    width: 851px;
+    height: 982px;
+    background: #FFFFFF;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 75px;
+}
+
+.frame4 h2 {
+    padding-top: 97px;
+    font-family: 'Happy Monkey';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    color: #000000;
+}
+
+.frame4 p {
+    padding-top: 25px;
+    margin-bottom: 47px;
+    width: 578px;
+    height: 59px;
+    font-family: 'Happy Monkey';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+
+}
+
+.p-email {
+    color: #5FC3CA;
+    text-decoration: underline;
+}
+
+.frame4 input, #message-area {
+    width: 428px;
+    height: 48px;
+    background: #F4F4F4;
+    border-style: hidden;
+    border-bottom:2px solid #C0C0C0;
+    border-radius: 5px 5px 0px 0px;
+    margin-bottom: 40px;
+    padding-left: 13px;
+    padding-top: 17px;
+    font-family: 'Happy Monkey';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.label {
+    color: #5FC3CA;
+    margin-bottom: 6px;
+    margin-left: 1px;
+}
+
+.frame4 input:nth-child(2) {
+    border-bottom: 2px solid #5FC3CA;
+}
+
+#message-area {
+    height: 217px;
+    resize: none;
+    margin-bottom: 109px;
+}
+
+.frame4 form {
+    font-family: 'Happy Monkey';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.submit input {
+    width: 231px;
+    height: 48px;
+    margin-left: 235px;
+    padding: 0;
+    background-color: #5FC3CA;
+    border-style: hidden;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Happy Monkey';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.frame2 {
+    width: 661px;
+    height: 982px;
+    background: #5FC3CA;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.frame2 img {
+    width: 475px;
+    height: 475px;
+    margin-left: 93px;
+    margin-top: 369px;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+}
