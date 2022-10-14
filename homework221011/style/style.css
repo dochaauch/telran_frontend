@@ -22,12 +22,12 @@
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     padding-left: 75px;
+    font-family: 'Happy Monkey';
+    font-weight: 400;
 }
 
 .frame4 h2 {
     padding-top: 97px;
-    font-family: 'Happy Monkey';
-    font-weight: 400;
     font-size: 64px;
     line-height: 77px;
     color: #000000;
@@ -37,12 +37,9 @@
     padding-top: 25px;
     margin-bottom: 47px;
     width: 578px;
-    height: 59px;
-    font-family: 'Happy Monkey';
-    font-weight: 400;
+    height: 85px;
     font-size: 16px;
     line-height: 18px;
-
 }
 
 .p-email {
@@ -50,7 +47,7 @@
     text-decoration: underline;
 }
 
-.frame4 input, #message-area {
+.frame4 input, #message-area, label{
     width: 428px;
     height: 48px;
     background: #F4F4F4;
@@ -66,10 +63,12 @@
     line-height: 17px;
 }
 
-.label {
+.frame4 label {
+    background: #FFFFFF;
     color: #5FC3CA;
     margin-bottom: 6px;
     margin-left: 1px;
+    padding-left: 0;
 }
 
 .frame4 input:nth-child(2) {
@@ -83,13 +82,11 @@
 }
 
 .frame4 form {
-    font-family: 'Happy Monkey';
-    font-weight: 400;
     font-size: 13px;
     line-height: 16px;
 }
 
-.submit input {
+#submit {
     width: 231px;
     height: 48px;
     margin-left: 235px;
@@ -98,9 +95,6 @@
     border-style: hidden;
     border-radius: 10px;
     text-align: center;
-    font-family: 'Happy Monkey';
-    font-style: normal;
-    font-weight: 400;
     font-size: 20px;
     line-height: 24px;
     color: #FFFFFF;
