@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;200;300;400&family=Happy+Monkey&family=Lato:wght@100&family=Roboto:ital,wght@0,700;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, .wrapper {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    background-color: blue;
+    display: flex;
+}
+
+.form, .banner {
+    flex: 1;
+}
+
+.form {
+    background-color: lightgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-inside {
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h2, input {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+#password, #login {
+    padding: 2px;
+    font-size: 20px;
+    border: none;
+}
+
+#password:focus, #login:focus{
+    outline-width: 0;
+    background-color: rgb(245, 241, 241);
+}
+
+#submit {
+    padding: 2px;
+    margin-top: 25px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 35%;
+    box-shadow: 0 0 0 1px gray;
+}
+
+#submit:hover {
+    width: 34%;
+    box-shadow: gray 0px 0px 0px 1px,gray 0px 0px 0px 1px inset;
+    cursor: pointer;
+}
+.picture {
+    width: 100%;
+    height: 100%;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
