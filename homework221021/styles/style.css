@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1920px;
+}
+
+.top-line {
+    height: 90px;
+    background-color: #E5E5E5;
+    padding-left: 305px;
+    padding-right: 353px;
+}
+
+.top-line-inside {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.left-top, .right-top {
+    flex: 1;
+}
+
+.left-top {
+    display: flex;
+    flex-direction: row;
+}
+
+.lamp{
+    width: 50%;
+}
+
+.column {
+    width: 25%;
+}
+
+.lamp, .column, .right-top {
+    border-left: 1px solid #C4C4C4;
+}
+
+.lamp img {
+    height: 74px;
+    width: 74px;
+}
+
+.right-top {
+    display: flex;
+    flex-direction: row;
+}
+
+.right-top-left {
+    width: 50%;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.icons img {
+    display: block;
+    margin:  0 auto;
+    margin-top: 35px;
+    height: 24px;
+    width: 24px;
+
+}
+
+.vk, .youtube, .facebook, .instagram {
+    width: 25%;
+    border-left: 1px solid #C4C4C4;
+    border-right: 1px solid #C4C4C4;
+}
+
+.first-screen {
+    height: 680px;
+    background-color:#4FBFA5;;
+}
+
+.first-screen-top {
+    height: 87px;
+    width: 100%;
+} 
+
+.first-screen-top-inside {
+    padding-left: 305px;
+    padding-right: 353px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'ABeeZee', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 200%;
+    color: #FFFFFF; 
+}
+
+.connect {
+    width: 190px;
+    height: 42px;
+    text-align: center;
+    background: #FFFFFF;
+    color: #000000;
+}
+
+.first-screen-div {
+    height: 523px;
+    width: 100%;
+    padding-left: 305px;
+    padding-right: 353px;
+    display: flex;
+    flex-direction: row;
+}
+
+.first-screen-left {
+    width:41%;
+    font-family: 'ABeeZee', sans-serif;
+    font-style: italic; 
+    font-weight: 400;
+    line-height: 150%;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.first-screen-left h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.first-screen-left p {
+    width: 416px;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.more {
+    width: 158px;
+    height: 50px;
+    padding: 15px 25px 14px;
+    gap: 10px;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background-color: #00868A;
+}
+
+.first-screen-image {
+    width: 59%;
+    margin-top: 18px;
+    padding-left: 18px;
+}
+
+.first-screen-image img {
+    width: 727px;
+}
+
+.offers {
+    height: 751px;
+
+}
+
+.offers-inside {
+    margin-top: 146px;
+    margin-left: 293px;
+    width: 1296px;
+}
+
+.offers-inside h3 {
+    margin-bottom: 60px;
+    font-family: 'ABeeZee';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 150%;
+    text-align: center;
+    color: #00868A;
+}
+
+.all-offers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img-block {
+    margin-left: 24px;
+    width: 306px;
+    height: 343px;
+    background-color: #00868A;
+    position: relative;
+}
+
+.img-block img {
+    width: 306px;
+    height: 230px;
+}
+
+.new::after {
+    content: "NEW";
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 30px;
+    margin-left: 31px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'ABeeZee';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    width: 70px;
+    height: 30px;
+    background-color: #4FBFA5;;
+}
+
+.bottom-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.img-block p {
+    width: 181px;
+    margin-left: 30px;
+    margin-top: 25px;
+    font-family: 'ABeeZee';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 40px;
+    border: 1px solid white;
+}
+
+.arrow img {
+    width: 20px;
+    height: 5px;
+    
+}
+
+.last-line {
+    height: 90px;
+    background-color: green;
+}
