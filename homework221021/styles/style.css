@@ -8,6 +8,10 @@
 
 body {
     width: 1920px;
+    /* font-family: 'ABeeZee', sans-serif; */
+    font-family: 'ABeeZee', sans-serif;
+    font-weight: 400;
+    font-style: italic; 
 }
 
 .top-line {
@@ -69,8 +73,12 @@ body {
     margin:  0 auto;
     margin-top: 35px;
     height: 24px;
-    width: 24px;
+    width: auto;
 
+}
+
+.icons img:hover{
+    transform: scale(1.2);
 }
 
 .vk, .youtube, .facebook, .instagram {
@@ -96,12 +104,14 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-family: 'ABeeZee', sans-serif;
-    font-style: italic;
-    font-weight: 400;
     font-size: 18px;
     line-height: 200%;
     color: #FFFFFF; 
+}
+
+.first-screen-top-link:hover {
+    transform: scale(1.2);
+    color: rgb(119, 119, 119);
 }
 
 .connect {
@@ -110,6 +120,12 @@ body {
     text-align: center;
     background: #FFFFFF;
     color: #000000;
+}
+
+.connect:hover {
+    transform: scale(1.2);
+    color: blue;
+    background-color: yellow;
 }
 
 .first-screen-div {
@@ -123,9 +139,6 @@ body {
 
 .first-screen-left {
     width:41%;
-    font-family: 'ABeeZee', sans-serif;
-    font-style: italic; 
-    font-weight: 400;
     line-height: 150%;
     color: #FFFFFF;
     display: flex;
@@ -157,6 +170,12 @@ body {
     background-color: #00868A;
 }
 
+.more:hover {
+    transform: scale(1.2);
+    color: blue;
+    background-color: yellow;
+}
+
 .first-screen-image {
     width: 59%;
     margin-top: 18px;
@@ -180,9 +199,6 @@ body {
 
 .offers-inside h3 {
     margin-bottom: 60px;
-    font-family: 'ABeeZee';
-    font-style: italic;
-    font-weight: 400;
     font-size: 48px;
     line-height: 150%;
     text-align: center;
@@ -203,6 +219,16 @@ body {
     position: relative;
 }
 
+.img-block:hover::before {
+    content: "";
+    background-color: #0000005c;
+    position: absolute;
+    width:100%;
+    height: 100%;
+    top:0;
+    left: 0;
+}
+
 .img-block img {
     width: 306px;
     height: 230px;
@@ -217,9 +243,6 @@ body {
     margin-left: 31px;
     text-align: center;
     padding-top: 10px;
-    font-family: 'ABeeZee';
-    font-style: italic;
-    font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
@@ -239,9 +262,6 @@ body {
     width: 181px;
     margin-left: 30px;
     margin-top: 25px;
-    font-family: 'ABeeZee';
-    font-style: italic;
-    font-weight: 400;
     font-size: 21px;
     line-height: 150%;
     color: #FFFFFF;
@@ -259,10 +279,4 @@ body {
 .arrow img {
     width: 20px;
     height: 5px;
-    
-}
-
-.last-line {
-    height: 90px;
-    background-color: green;
 }
